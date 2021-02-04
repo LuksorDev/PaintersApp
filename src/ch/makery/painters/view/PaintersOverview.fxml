@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.painters.view.PaintersOverviewController">
+   <children>
+      <SplitMenuButton fx:id="paintersTable" layoutX="14.0" layoutY="14.0" maxWidth="240.0" mnemonicParsing="false" text="Franciszek Ksawery Lampi" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <Button layoutX="205.0" layoutY="7.0" maxWidth="100.0" mnemonicParsing="false" text="Poprzedni" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="20.0" />
+      <Button layoutX="296.0" layoutY="23.0" mnemonicParsing="false" text="Następny" AnchorPane.leftAnchor="420.0" AnchorPane.topAnchor="20.0" />
+      <Pane layoutX="27.0" layoutY="93.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="80.0" />
+      <TextArea disable="true" layoutX="14.0" layoutY="470.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="470.0" />
+   </children>
+</AnchorPane>
